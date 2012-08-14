@@ -1,0 +1,6 @@
+<ruleset name="Gazeta">
+  <target host="wiadomosci.gazeta.pl" />
+  <target host="serwisy.gazeta.pl" />
+
+  <rule from="^http://(serwisy.|wiadomosci)\.gazeta.pl/" to="https://wiadomosci.gazeta.pl/"/>
+</ruleset>
